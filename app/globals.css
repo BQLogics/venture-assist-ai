@@ -25,9 +25,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.poppins{
+  font-family: var(--font-poppins);
+}
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
